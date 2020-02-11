@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>калькулятор </title>
+	<link rel="stylesheet" href="calc.css">
+	<script src="calc.js"></script>
+	
+
+
+</head>
+<body>
+<div class="img"  >
+	<img src="calc.jpg" alt="calc">
+</div>
+    <button id="num1" value="1"   onclick="num(this.value)">1</button>
+	<button id="num2" value="2"   onclick="num(this.value)">2</button>
+	<button id="num3" value="3"  onclick="num(this.value)">3</button>
+	<button id="num4" value="4"  onclick="num(this.value)">4</button>
+	<button id="num5" value="5"  onclick="num(this.value)">5</button>
+	<button id="num6" value="6"  onclick="num(this.value)">6</button>
+	<button id="num7" value="7"  onclick="num(this.value)">7</button>
+	<button id="num8" value="8"  onclick="num(this.value)">8</button>
+	<button id="num9" value="9"  onclick="num(this.value)">9</button>
+	<button id="num0" value="0"  onclick="num(this.value)">0</button>
+	<button id="times" value="*"   onclick="procedure(this.value)">*</button>
+	<button id="plus" value="+" onclick="procedure(this.value)">+</button>
+	<button id="minus" value="-"  onclick="procedure(this.value)">-</button>
+	<button id="division" value="/"  onclick="procedure(this.value)">/</button>
+	<button id="equals"   onclick="calculation()">=</button>
+	<button id="point"value="."   onclick="point_add()">.</button>
+	<button id="dell"   onclick="dellete()">←</button>
+	<button id="clean"   onclick="clean1()">C</button>
+	<button id="clean_all"   onclick="clean2()">CE</button>
+    <button id="sign"   onclick="sign_change()">+-</button>
+
+ <div id="result" >0</div>
+</body>
+</html>

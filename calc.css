@@ -1,0 +1,122 @@
+.img
+{position:absolute;
+	top: 15%;
+	left:20%;
+width: 400px;
+    height: 460px;
+    margin-top: 13px;
+margin-left:108px;
+}
+button {
+	position:absolute;
+	top: 20%;
+	left:20%;
+	width: 65px;
+    height: 65px;
+     background-color: #008CBA;
+      border: none;
+    color: white;
+        text-align: center;
+     font-size: 40px;
+     font-family: ‘Comic Sans MS’, cursive;
+}
+button#num1 {
+
+margin-top:250px;
+margin-left: 125px;
+} 
+button#num2 {
+
+margin-top: 250px;
+margin-left: 200px;
+} 
+button#num3 {
+margin-top: 250px;
+margin-left: 275px;
+} 
+button#num4 {
+margin-top: 175px;
+margin-left: 125px;
+} 
+button#num5 {
+margin-top: 175px;
+margin-left: 200px;
+} 
+button#num6 {
+margin-top: 175px;
+margin-left: 275px;
+} 
+button#num7 {
+margin-top:100px;
+margin-left:125px;
+} 
+button#num8 {
+margin-top: 100px;
+margin-left: 200px;
+} 
+button#num9 {
+margin-top: 100px;
+margin-left: 275px;
+} 
+button#num0 {
+margin-top: 325px;
+margin-left: 200px;
+
+} 
+button#times {
+
+margin-top:175px;
+margin-left: 350px;
+} 
+button#plus {
+
+margin-top: 325px;
+margin-left: 350px;
+} 
+button#minus {
+margin-top: 250px;
+margin-left: 350px;
+} 
+button#division {
+margin-top: 100px;
+margin-left: 350px;
+} 
+button#equals {
+margin-top: 325px;
+margin-left: 275px;
+} 
+button#point {
+margin-top: 325px;
+margin-left: 125px;
+} 
+button#dell {
+margin-top: 100px;
+margin-left: 425px;
+} 
+button#clean {
+margin-top: 175px;
+margin-left: 425px;
+} 
+button#clean_all {
+margin-top: 250px;
+margin-left: 425px;
+} 
+button#sign {
+margin-top: 325px;
+margin-left: 425px;
+} 
+div#result  {
+	position: absolute;
+	top: 23%;
+	left:20%;
+margin-left: 434px;
+font-size: 50px;
+font-family: monospace; 
+}
+body {   
+   background-image: url(img.jpg);      
+background-position: center center;      
+  background-repeat: no-repeat;      
+   background-attachment: fixed;
+   background-size: cover;      
+  background-color: #464646; }
